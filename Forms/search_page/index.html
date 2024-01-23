@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search page</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Search parametrs</legend>
+            <fieldset>
+                <label for="carbody">Car body</label>
+                <select name="carbody" id="carbody" size="2" multiple>
+                    <option value="cupe">Cupe</option>
+                    <option value="sedan">Sedan</option>
+                    <option value="wagon">Wagon</option>
+                    <option value="cabriolet">Cabriolet</option>
+                    <option value="minibus">Minibus</option>
+                    <option value="pickup">Pickup</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="cars">Cars brands</label>
+                <select name="cars" id="cars">
+                    <option value="BMW">BMW</option>
+                    <option value="Opel">Opel</option>
+                    <option value="Merserdes">Mersedes</option>
+                    <option value="Audi">Audi</option>
+                    <option value="VW">VW</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="countri">Prodacing countri</label>
+                <input list="prodacing" name="countri" id="countri">
+                <datalist id="prodacing">
+                    <option value="USA">
+                    <option value="England">
+                    <option value="France">
+                    <option value="Germany">
+                    <option value="Italy">
+                    <option value="Japan">
+                </datalist>
+            </fieldset>
+            <fieldset>
+                <label for="price">Price in $</label>
+                <input type="number" nane="price" step="100" min="200">
+            </fieldset>
+            <fieldset>
+                <label for="year">year</label>
+                <input type="number" name="year" min="1901" max="2024" step="1" value="2005">
+            </fieldset>
+            <fieldset>
+                <p>Car condition</p>
+                <label for="cond">Broken cars</label>
+                <input type="checkbox" name="condition" value="broken" id="cond">
+                <label for="cred">Cars on credit</label>
+                <input type="checkbox" name="condition" value="credit" id="cred">
+                <label for="uncleared">Uncleared cars</label>
+                <input type="checkbox" name="condition" value="uncleared" id="uncleared">
+                <label for="other">Other cars</label>
+                <input type="checkbox" name="condition" value="other" id="other" checked>
+            </fieldset>
+            <fieldset>
+                <p>type of foel</p>
+                <label for="gasoline">Gasoline</label>
+                <input type="radio" name="foel" id="gasoline" value="manual" checked>
+                <label for="diesel">Diesel</label>
+                <input type="radio" name="foel" id="diesel" value="automat">
+                <label for="gas">Gas</label>
+                <input type="radio" name="foel" id="gas" value="gas">
+            </fieldset>
+            <fieldset>
+                <label for="manual">Manual transmition</label>
+                <input type="checkbox" name="manual" id="manual" value="manual">
+                <label for="automat">automat transmition</label>
+                <input type="checkbox" name="automat" id="automat" value="automat">
+            </fieldset>
+            <fieldset>
+                <label for="color">color</label>
+                <input type="color" name="color"></input>
+            </fieldset>
+            <fieldset>
+                <p>Comfort</p>
+                <label for="hatch">Hatch</label>
+                <input type="checkbox" name="hatch" id="hatch" value="hatch">
+                <label for="skin">Skin salon</label>
+                <input type="checkbox" name="skin" id="skin" value="skin">
+                <label for="xdrive">xdrive</label>
+                <input type="checkbox" name="xdrive" id="xdrive" value="xdrive">
+                <label for="other">other</label>
+                <input type="text" name="other" id="other">
+            </fieldset>
+            <fieldset>
+                <textarea name="message" rows="5" cols="30">Enter your personal message for us</textarea>
+            </fieldset>
+            <fieldset>
+                <p>Enter your email for feedback</p>
+                <input type="email" name="email">
+            </fieldset>
+            <fieldset>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+    </form>
+</body>
+
+</html>
