@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 0 0;
+}
+
+.conteiner {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 80px 0 80px 0;
+
+}
+
+/*----header------*/
+.header {
+    background-color: #EEEFF1;
+
+}
+
+.ul_header {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.li_header {
+    display: inline-block;
+    margin-right: 30px;
+    height: 26.25px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 10%;
+}
+
+.a_header {
+    text-decoration: none;
+
+}
+
+/*-----------section_design--------------*/
+.section_design {
+    background-color: #EEEFF1;
+}
+
+.div_design {
+    width: 600px;
+    margin: 30px 0 80px 0;
+}
+
+.h_design {
+    font-size: 48px;
+    font-weight: 500;
+    height: 78.75px;
+}
+
+.p_design {
+    font-size: 16px;
+    font-weight: 400;
+    height: 26.25px;
+}
+
+.design_button {
+    font-size: 16px;
+    font-weight: 400px;
+    height: 26.25px;
+    letter-spacing: 10%;
+    text-align: center;
+    height: 65px;
+    width: 225px;
+    background-color: #34547A;
+    color: white;
+}
+
+/*-----------section_midle ------------*/
+
+.section_midle {
+    background-color: white;
+}
+
+.div_midle {
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+.h_midle {
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    height: 37.5px;
+}
+
+.p_midle {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    height: 26.25px;
+}
+
+/*----------section_card-----------*/
+
+.section_card {
+    background-color: #34547A;
+}
+
+.div_card {
+    display: inline-block;
+    width: 141px;
+    height: 50px;
+    color: white;
+    margin-right: 40px;
+}
+
+.img_project {
+    float: left;
+    margin-right: 15px;
+}
+
+.h_card {
+    font-size: 21px;
+    height: 24.61px;
+    margin: 0;
+}
+
+.p_card {
+    font-size: 16px;
+    height: 26.25px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/*--------section_video---------*/
+.section_video {
+    background-color: #EEEFF1;
+}
+
+.div_video {
+    width: 600px;
+    margin: 0 auto 150px;
+
+}
+
+.h_video {
+    height: 37.5px;
+    text-align: center;
+}
+
+.p_video {
+    height: 26.25px;
+    text-align: center;
+}
+
+/*------footer-----*/
+.footer {
+    background-color: #34547A;
+}
+
+.h_footer {
+    height: 24.61px;
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.p_footer {
+    height: 21.33px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+
+}
