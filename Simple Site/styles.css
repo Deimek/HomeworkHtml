@@ -10,14 +10,12 @@ body {
 .conteiner {
     width: 1150px;
     margin: 0 auto;
-    padding: 80px 0 80px 0;
-
 }
 
 /*----header------*/
 .header {
     background-color: #EEEFF1;
-
+    padding: 90px 0 50px 0;
 }
 
 .ul_header {
@@ -28,7 +26,6 @@ body {
 .li_header {
     display: inline-block;
     margin-right: 30px;
-    height: 26.25px;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 10%;
@@ -42,6 +39,7 @@ body {
 /*-----------section_design--------------*/
 .section_design {
     background-color: #EEEFF1;
+    padding: 50px 0 150px 0;
 }
 
 .div_design {
@@ -52,31 +50,29 @@ body {
 .h_design {
     font-size: 48px;
     font-weight: 500;
-    height: 78.75px;
 }
 
 .p_design {
     font-size: 16px;
     font-weight: 400;
-    height: 26.25px;
 }
 
 .design_button {
     font-size: 16px;
     font-weight: 400px;
-    height: 26.25px;
     letter-spacing: 10%;
     text-align: center;
-    height: 65px;
     width: 225px;
     background-color: #34547A;
     color: white;
+    padding: 25px 0 35px 0;
 }
 
 /*-----------section_midle ------------*/
 
 .section_midle {
     background-color: white;
+    padding: 100px 0 100px 0;
 }
 
 .div_midle {
@@ -89,26 +85,24 @@ body {
     text-align: center;
     font-weight: 500;
     font-size: 32px;
-    height: 37.5px;
 }
 
 .p_midle {
     text-align: center;
     font-weight: 400;
     font-size: 16px;
-    height: 26.25px;
 }
 
 /*----------section_card-----------*/
 
 .section_card {
     background-color: #34547A;
+    padding: 100px 0 100px 0;
 }
 
 .div_card {
     display: inline-block;
     width: 141px;
-    height: 50px;
     color: white;
     margin-right: 40px;
 }
@@ -120,13 +114,11 @@ body {
 
 .h_card {
     font-size: 21px;
-    height: 24.61px;
     margin: 0;
 }
 
 .p_card {
     font-size: 16px;
-    height: 26.25px;
     font-weight: 400;
     margin: 0;
 }
@@ -134,6 +126,7 @@ body {
 /*--------section_video---------*/
 .section_video {
     background-color: #EEEFF1;
+    padding: 100px 0 100px 0;
 }
 
 .div_video {
@@ -143,22 +136,20 @@ body {
 }
 
 .h_video {
-    height: 37.5px;
     text-align: center;
 }
 
 .p_video {
-    height: 26.25px;
     text-align: center;
 }
 
 /*------footer-----*/
 .footer {
     background-color: #34547A;
+    padding: 65px 0 65px 0;
 }
 
 .h_footer {
-    height: 24.61px;
     font-size: 19px;
     font-weight: 500;
     color: white;
@@ -166,7 +157,6 @@ body {
 }
 
 .p_footer {
-    height: 21.33px;
     font-size: 13px;
     font-weight: 400;
     color: white;
