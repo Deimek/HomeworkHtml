@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(252, 255, 255);
+}
+
+.menu {
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+    border-bottom: 10px solid rgb(0, 128, 255);
+    padding: 0 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 30px 25px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.menu-item:hover {
+    background-color: rgb(0, 128, 255);
+}
+
+.second-menu {
+
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 78px;
+    left: 102px;
+    display: inline-block;
+    padding-left: 0;
+}
+
+.menu-item.submenu:hover .second-menu {
+    opacity: 1;
+    visibility: visible;
+    background-color: rgb(0, 128, 255);
+}
+
+.products-one {
+    padding: 30px 15px;
+    cursor: pointer;
+    list-style: none;
+    min-width: 150px;
+}
+
+.products-two {
+    padding: 30px 15px;
+    cursor: pointer;
+    list-style: none;
+    min-width: 150px;
+}
+
+span {
+    float: right;
+}
+
+.third-menu {
+
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 180px;
+    padding-left: 0;
+
+}
+
+.second-menu .products-one:hover .third-menu {
+    opacity: 1;
+    visibility: visible;
+    background-color: rgb(0, 128, 255);
+}
+
+.second-menu .products-two:hover .fourth-menu {
+    opacity: 1;
+    visibility: visible;
+    background-color: rgb(0, 128, 255);
+}
+
+.fourth-menu {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 80px;
+    left: 180px;
+    padding-left: 0;
+}
+
+.third-item {
+    min-width: 150px;
+    padding: 30px 15px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.fourth-item {
+    min-width: 150px;
+    padding: 30px 15px;
+    cursor: pointer;
+    list-style: none;
+}
